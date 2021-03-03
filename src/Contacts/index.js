@@ -1,10 +1,22 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import dataview from '../static/dataview.json';
+import Contact from './Contact';
+import './style.css';
 
 export function Contacts() {
+    const { contacts } = dataview;
+
     return (
         <div>
-            Contacts
+            {
+                contacts.map(contact => (
+                    <Contact
+                        username={contact.username}
+                        image={contact.profileImage}
+                        key={contact.userId}
+                    />
+                ))
+            }
         </div>
     );
 }
