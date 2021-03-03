@@ -1,13 +1,21 @@
 .header {
-  padding: 32px;
+  padding: 0 32px;
   margin-bottom: 16px;
   border-bottom: 1px solid #e4e5e7;
   background: #fff;
+  display: flex;
+  height: 80px;
+  align-items: center;
 }
 
-.logo {
-  width: 93px;
-  height: 20px;
-  background: url("../static/logo.png") no-repeat;
-  background-size: cover;
+.header .logo {
+  margin-right: 32px;
+  margin-bottom: 4px;
+}
+
+.header .nav-item {
+  padding: 0 16px;
+  color: #7a7d85;
+  font-weight: 600;
+  font-size: 16px;
 }
