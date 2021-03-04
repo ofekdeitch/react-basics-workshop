@@ -16,13 +16,12 @@
 
 .contacts-container {
   width: 250px;
-  padding: 16px;
   overflow: auto;
   border-right: 1px solid #e7e7e7;
 }
 
 .conversation-container {
   flex: 1;
-  padding: 16px;
+  padding: 32px;
   overflow: auto;
 }

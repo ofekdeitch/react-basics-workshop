@@ -1,0 +1,18 @@
+.message-row {
+    margin: 12px 0;
+    display: flex;
+}
+
+.message-row.own-message {
+    justify-content: flex-end;
+}
+
+.message-body {
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: #ededed;
+}
+
+.own-message .message-body {
+    background: #deffd9;
+}
